@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E876A112-5E8E-4092-8CDB-A74E1A94791E}</ProjectGuid>
     <RootNamespace>Geometry2</RootNamespace>
+    <ProjectName>Geometry2_org</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

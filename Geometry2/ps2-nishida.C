@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 
 	Point* p1 = new InputPoint(0, 0);
 	Point* p2 = new InputPoint(10, 0);
-	Point* p3 = new InputPoint(5, 7);
+	Point* p3 = new InputPoint(0, 10);
 	Vertex* v1 = a.addVertex(p1);
 	Vertex* v2 = a.addVertex(p2);
 	Vertex* v3 = a.addVertex(p3);
@@ -19,9 +19,9 @@ int main(int argc, char *argv[]) {
 	a.addEdge(v2, v3);
 	a.addEdge(v3, v1);
 
-	Point* p4 = new InputPoint(-5, 3);
-	Point* p5 = new InputPoint(5, 3);
-	Point* p6 = new InputPoint(0, 10);
+	Point* p4 = new InputPoint(5, 5);
+	Point* p5 = new InputPoint(10, 5);
+	Point* p6 = new InputPoint(5, 10);
 	Vertex* v4 = b.addVertex(p4);
 	Vertex* v5 = b.addVertex(p5);
 	Vertex* v6 = b.addVertex(p6);
